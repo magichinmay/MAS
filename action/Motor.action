@@ -1,0 +1,9 @@
+#Request
+float64 speed
+float64 duration
+---
+#Result
+bool success
+---
+#feedback
+float64 current_speed    

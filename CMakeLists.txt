@@ -12,7 +12,7 @@ find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_components REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-find_package(rpi_gpio REQUIRED)
+# find_package(rpi_gpio REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Motor.action"
